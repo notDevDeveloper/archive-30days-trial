@@ -91,7 +91,7 @@ body {
 .fa-code,
 .fa-bold,
 .fa-css3 {
-  font-size: 4rem;
+  font-size: 4em;
   margin: 1rem;
 }
 
@@ -161,13 +161,14 @@ hr.light-100 {
   margin-bottom: 1rem;
 }
 
-/*---Media Queries --*/
+/* Media Queries */
 @media (max-width: 992px) {
   .social a {
     font-size: 4em;
     padding: 2rem;
   }
 }
+
 @media (max-width: 768px) {
   .carousel-caption {
     top: 45%;
@@ -197,6 +198,7 @@ hr.light-100 {
     padding: 1.2rem;
   }
 }
+
 @media (max-width: 576px) {
   .carousel-caption {
     top: 40%;
@@ -229,7 +231,7 @@ hr.light-100 {
   }
 }
 
-/*---Firefox Bug Fix --*/
+/* Firefox Bug Fix */
 .carousel-item {
   transition: -webkit-transform 0.5s ease;
   transition: transform 0.5s ease;
@@ -237,13 +239,15 @@ hr.light-100 {
   -webkit-backface-visibility: visible;
   backface-visibility: visible;
 }
-/*--- Fixed Background Image --*/
+
+/* Fixed Background Image */
 figure {
   position: relative;
   width: 100%;
   height: 60%;
   margin: 0 !important;
 }
+
 .fixed-wrap {
   clip: rect(0, auto, auto, 0);
   position: absolute;
@@ -252,6 +256,7 @@ figure {
   width: 100%;
   height: 100%;
 }
+
 #fixed {
   background-image: url("img/mac.png");
   position: fixed;
@@ -266,12 +271,13 @@ figure {
   transform: translateZ(0);
   will-change: transform;
 }
-/*--- Bootstrap Padding Fix --*/
+
+/* Bootstrap Padding Fix */
 [class*="col-"] {
   padding: 1rem;
 }
 
-/*
+/* 
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
 
