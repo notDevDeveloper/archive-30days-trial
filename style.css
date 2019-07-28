@@ -146,6 +146,15 @@ figure {
   will-change: transform;
 }
 
+.fun {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.gif {
+  max-width: 100%;
+}
+
 /* Bootstrap Padding Fix */
 [class*="col-"] {
   padding: 1rem;
