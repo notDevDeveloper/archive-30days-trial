@@ -1,0 +1,13 @@
+h1 {
+  font-size: 32px;
+  color: red;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+}
+
+img:hover {
+  opacity: 0.1;
+}
