@@ -1,0 +1,2 @@
+# 30DaysTrial-bootstrap-businessLP2
+30Daysトライアル1stのDAY15〜DAY16の「BootstrapでビジネスLP制作③④」で作成したソースコードです。
